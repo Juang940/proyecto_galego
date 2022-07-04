@@ -9,22 +9,101 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 </head>
-<body>
+<body class="bg-secondary bg-gradient">
     
 <!-- Header -->
 <header class="cabecera bg-dark bg-gradient row-col">
-    <img src="multimedia/images/Bulonera Centro Logo.jpeg" alt="Logo de Nuestra Empresa" class="foto_tornillos">
-    <nav>
-    <ul class="cabecera__lista">
-        <li class="cabecera__link"><a href="pages/contacto.html"class="cabecera__link__item">Contacto</a></li>
-        <li class="cabecera__link"><a href="pages/nosotros.html"class="cabecera__link__item">Nosotros</a></li>
-        <li class="cabecera__link"><a href="index.html"class="cabecera__link__item">Home</a></li>
-        <li class="cabecera__link"><a href="pages/catalogo.html"class="cabecera__link__item">Catálogo</a></li>
-        <li class="cabecera__link"><a href="pages/servicios.html" class="cabecera__link__item">Servicios</a></li>
-    </ul>
+    <div class="expansible">
+
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+                <div class="d-flex shadow-lg p-3 mb-5 subrayado">
+                    <h5 class="font-weight-bold text-white h4">Bulonera Centro</h5>
+                    <i class="bi bi-hammer text-white"></i>
+                </div>
+              <!-- <span class="text-muted">Toggleable via the navbar brand.</span> -->
+              <ul class="navbar-nav ms-auto d-inline-flex">
+                <li class="nav-item text-white"><a href="pages/contacto.html"class=" nav-link-header">Contacto</a></li>
+                <li class="nav-item text-white"><a href="pages/nosotros.html"class=" nav-link-header">Nosotros</a></li>
+                <li class="nav-item text-white"><a href="index.html"class=" nav-link-header active">Home</a></li>
+                <li class="nav-item text-white"><a href="pages/catalogo.html"class=" nav-link-header">Catálogo</a></li>
+                <li class="nav-item text-white"><a href="pages/servicios.html" class="nav-link-header">Servicios</a></li>
+            </ul>
+            </div>
+          </div>
+          <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
+
+        </div>
+        <section class="desktop">
+            <img src="multimedia/images/Bulonera Centro Logo.jpeg" alt="Logo de Nuestra Empresa" class="foto_tornillos">
+            <nav>
+            <ul class="cabecera__lista">
+                <li class="cabecera__link"><a href="pages/contacto.html"class="cabecera__link__item">Contacto</a></li>
+                <li class="cabecera__link"><a href="pages/nosotros.html"class="cabecera__link__item">Nosotros</a></li>
+                <li class="cabecera__link"><a href="index.html"class="cabecera__link__item">Home</a></li>
+                <li class="cabecera__link"><a href="pages/catalogo.html"class="cabecera__link__item">Catálogo</a></li>
+                <li class="cabecera__link"><a href="pages/servicios.html" class="cabecera__link__item">Servicios</a></li>
+            </ul>
+
+        </section>
+
 </header>
 <!-- Fin Header -->
+
+<!-- Imagenes de trabajos -->
+<section class="container imagenes-trabajos">
+    <div class="row">
+         <div class="col ">
+          <div class="card">
+            <img src="/multimedia/images/tronillos.png" class="card-img-top" alt="descripcion trabajos">
+            <div class="card-body bg-dark bg-gradient row-col text-light ">
+              <h5 class="card-title justify-content-center d-flex">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/multimedia/images/tronillos.png" class="card-img-top" alt="descripcion trabajos">
+            <div class="card-body bg-dark bg-gradient row-col text-light">
+              <h5 class="card-title justify-content-center d-flex">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+              <div class="col">
+              <div class="card">
+                <img src="/multimedia/images/tronillos.png" class="card-img-top" alt="descripcion trabajos">
+                <div class="card-body bg-dark bg-gradient row-col text-light">
+                  <h5 class="card-title justify-content-center d-flex">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                    <div class="card">
+                      <img src="/multimedia/images/tronillos.png" class="card-img-top" alt="descripcion trabajos">
+                      <div class="card-body bg-dark bg-gradient row-col text-light">
+                        <h5 class="card-title justify-content-center d-flex">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
+                  </div>
+    </div>
+    </section>
+
+<!-- Fin Imagenes -->
+
+
 
 <!-- Footer -->
 <footer class="bg-dark bg-gradient">
