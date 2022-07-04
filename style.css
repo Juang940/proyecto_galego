@@ -6,14 +6,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
-$main-green: #79dd09 !default;
+/* $main-green: #79dd09 !default;
 $main-green-rgb-015: rgba(121, 221, 9, 0.1) !default;
 $main-yellow: #bdbb49 !default;
 $main-yellow-rgb-015: rgba(189, 187, 73, 0.1) !default;
 $main-red: #bd150b !default;
 $main-red-rgb-015: rgba(189, 21, 11, 0.1) !default;
 $main-blue: #0076bd !default;
-$main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default;
+$main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default; */
 
 
 body {
@@ -135,7 +135,7 @@ body {
     margin-bottom: 200px;
   }
   .video__section {
-    background-color: coral;
+    background-color: #18151f;
   }
 
   .carousel-inner {
@@ -148,7 +148,7 @@ body {
     margin: auto;
     padding: 2%;
     margin-right: 5%;
-    color: #2a2a2a;
+    color: white;
 }
 /* Fin Video Informativo */
 
@@ -156,7 +156,7 @@ body {
 .titulo__section {
  height: 75px;
  width: auto;
- background-color: coral;
+ /* background-color: coral; */
 }
 
 .titulo-index {
@@ -180,8 +180,8 @@ body {
       45deg,
       transparent 0,
       transparent 2px,
-      #2a2a2a 2px,
-      #2a2a2a 4px
+      white 2px,
+      white 4px
     );
     -webkit-background-clip: text;
     top: 0px;
@@ -198,8 +198,8 @@ body {
       135deg,
       transparent 0,
       transparent 2px,
-      #2a2a2a 2px,
-      #2a2a2a 4px
+      white 2px,
+      white 4px
     );
     -webkit-background-clip: text;
     top: 0px;
@@ -236,7 +236,7 @@ body {
     position: relative;
     max-width : 300px;
     height : 215px;  
-    background-color : coral;
+    background-color : #18151f;
     margin : 30px 10px;
     padding : 20px 15px;
     margin: 20px;
@@ -272,7 +272,7 @@ body {
     position : relative;
     top : -140px;
     padding : 10px 15px;
-    color : #111;
+    color : white;
     text-align : center;
     
     visibility : hidden;
@@ -377,11 +377,11 @@ footer .website-logo {
     height: 30%;
     width: 100%;
 }
-
+/* aca profe no sé xq no aparecen las imagenes que estoy vinculando */
 .social-link {
     height: 100%;
     width: 30px;
-    background-image:url(/multimedia/images/Facebook.png);
+    background-image:url(/multimedia/images/Facebook.png) !important;
     background-size: 70%;
     background-position: center;
     margin-right: 1rem;
@@ -400,9 +400,10 @@ footer .social-link:nth-of-type(3) {
 }
 
 /* SECCION HTML NOSOTROS */
-<html><head></head><body>@import url(&#34;
+
+/* <html><head></head><body>@import url(&#34;
 https://fonts.googleapis.com/css2?family=Baloo+2&amp;
-display=swap&#34;);
+display=swap&#34;); */
 /* This pen */
  .dark {
 	 background: #110f16;
@@ -505,7 +506,7 @@ display=swap&#34;);
  .postcard .postcard__tagbox .tag__item:hover {
 	 background: rgba(83, 83, 83, 0.8);
 }
- .postcard:before {
+ /* .postcard:before {
 	 content: &#34;
 	&#34;
 	;
@@ -517,7 +518,7 @@ display=swap&#34;);
 	 background-image: linear-gradient(-70deg, #424242, transparent 50%);
 	 opacity: 1;
 	 border-radius: 10px;
-}
+} */
  .postcard:hover .postcard__bar {
 	 width: 100px;
 
@@ -530,9 +531,6 @@ display=swap&#34;);
 .mapa-nosotros {
     width: 100% !important;
 
-}
-#pageHeaderTitle{
-    color: coral;
 }
  @media screen and (min-width: 769px) {
 	 .postcard {
@@ -553,7 +551,7 @@ display=swap&#34;);
 		 padding: 3rem;
 		 width: 100%;
 	}
-	 .postcard .media.postcard__text:before {
+	 /* .postcard .media.postcard__text:before {
 		 content: &#34;
 		&#34;
 		;
@@ -563,7 +561,7 @@ display=swap&#34;);
 		 top: -20%;
 		 height: 130%;
 		 width: 55px;
-	}
+	} */
 	 .postcard:hover .postcard__img {
 		 transform: scale(1.1);
 	}
@@ -586,7 +584,7 @@ display=swap&#34;);
 	 .postcard__text {
 		 padding: 2rem 3.5rem;
 	}
-	 .postcard__text:before {
+	 /* .postcard__text:before {
 		 content: &#34;
 		&#34;
 		;
@@ -595,7 +593,7 @@ display=swap&#34;);
 		 top: -20%;
 		 height: 130%;
 		 width: 55px;
-	}
+	} */
 	 .postcard.dark .postcard__text:before {
 		 background: #18151f;
 	}
